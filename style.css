@@ -278,3 +278,13 @@ tr:nth-child(even){
   }
 
   
+
+  @media (width < 960px) {
+    .container{
+        width: 80%;
+    }
+
+    .modal-content{
+        width: 80vw;
+    }
+  }

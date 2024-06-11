@@ -75,7 +75,6 @@ function createBookList(bookDetails){
         const rowValue = document.createElement('td');
         
         if(key == 'read'){
-            console.log(key);
             addReadBtn(tableRow, bookDetails[key]);
         }
             
